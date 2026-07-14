@@ -1,0 +1,59 @@
+[
+  {
+    "year": "2019",
+    "title": "Completed Class 10",
+    "place": "RSM Public School",
+    "detail": "Secondary School (CBSE) with a strong interest in Mathematics, Science, and Computers — the foundation for my engineering journey.",
+    "icon": "school"
+  },
+  {
+    "year": "2021",
+    "title": "Completed Class 12",
+    "place": "Lord Buddha Public School",
+    "detail": "Higher Secondary (CBSE) in the Science stream, deepening my curiosity for Computer Science and technology.",
+    "icon": "book"
+  },
+  {
+    "year": "2022",
+    "title": "Started B.Tech in Computer Science",
+    "place": "Lovely Professional University",
+    "detail": "Began my CS journey — programming, problem-solving, algorithms, and software engineering fundamentals.",
+    "icon": "cap"
+  },
+  {
+    "year": "2023",
+    "title": "Full Stack Development",
+    "place": "Self-driven learning",
+    "detail": "Mastered HTML, CSS, JavaScript, React, Node, Express, MongoDB and REST APIs — shipping multiple full-stack projects.",
+    "icon": "laptop"
+  },
+  {
+    "year": "2024",
+    "title": "Entered AI & Computer Vision",
+    "place": "Python · OpenCV · PyTorch · YOLO",
+    "detail": "Started building AI-powered applications and real-time vision systems with deep learning and object detection.",
+    "icon": "brain"
+  },
+  {
+    "year": "2025",
+    "title": "Full Stack Software Developer Intern",
+    "place": "Sagar Aman Private Limited",
+    "detail": "Built production SaaS features with React, Node, Express and REST APIs — collaborating in Agile teams with strong test coverage.",
+    "icon": "briefcase"
+  },
+  {
+    "year": "2026",
+    "title": "Built Production AI Systems",
+    "place": "YOLO · ByteTrack · ReID · Flask · Docker",
+    "detail": "Designed Blood Cell Detection, PPE Compliance Monitoring, and Retail Footfall Analytics — full real-time video analytics stack.",
+    "icon": "rocket"
+  },
+  {
+    "year": "Present",
+    "title": "Learning Frontier AI",
+    "place": "LLMs · Agentic AI · LangChain · MCP · RAG",
+    "detail": "Exploring next-gen AI — multi-agent systems, local LLMs with Ollama, and production apps beyond Computer Vision.",
+    "icon": "sparkles",
+    "current": true
+  }
+]

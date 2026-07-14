@@ -1,0 +1,14 @@
+[
+  {
+    "company": "Sagar Aman Private Limited",
+    "role": "Full Stack Software Developer Intern",
+    "period": "June 2025 — Aug 2025",
+    "location": "Remote",
+    "bullets": [
+      "Improved frontend load time by ~30% by developing a home-layout planning SaaS platform with React.js, Node.js and Express.js, exposing 15+ REST API endpoints.",
+      "Accelerated feature delivery and cut code duplication by building 20+ reusable React components and modular backend services within an Agile/Scrum team.",
+      "Reduced pre-release integration defects by creating and executing 50+ API and UI test cases in Postman covering critical user flows."
+    ],
+    "tech": ["React", "Node.js", "Express", "REST APIs", "Postman", "Agile"]
+  }
+]

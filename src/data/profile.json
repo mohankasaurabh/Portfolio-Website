@@ -1,0 +1,20 @@
+{
+  "name": "Saurabh Kumar Mohanka",
+  "shortName": "Saurabh",
+  "greeting": "Hi, I'm",
+  "roles": [
+    "AI Engineer",
+    "Computer Vision Engineer",
+    "ML Engineer",
+    "Full Stack AI Developer"
+  ],
+  "tagline": "I build production-grade AI systems for Computer Vision, Real-Time Video Analytics and Intelligent Automation.",
+  "email": "saurabhkrmohanka@gmail.com",
+  "phone": "+91 8969254578",
+  "location": "Pune, Maharashtra",
+  "resume": "/resume.pdf",
+  "socials": {
+    "github": "https://github.com/mohankasaurabh",
+    "linkedin": "https://linkedin.com/in/saurabhkumarmohanka"
+  }
+}

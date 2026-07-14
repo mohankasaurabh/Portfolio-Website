@@ -1,0 +1,70 @@
+[
+  {
+    "category": "Programming",
+    "icon": "Code2",
+    "items": [
+      { "name": "Python", "level": 95 },
+      { "name": "C++", "level": 78 },
+      { "name": "SQL", "level": 82 },
+      { "name": "JavaScript", "level": 85 },
+      { "name": "HTML", "level": 90 },
+      { "name": "CSS", "level": 85 }
+    ]
+  },
+  {
+    "category": "AI / Computer Vision",
+    "icon": "Brain",
+    "items": [
+      { "name": "PyTorch", "level": 92 },
+      { "name": "YOLO11 / YOLO26", "level": 94 },
+      { "name": "OpenCV", "level": 90 },
+      { "name": "Deep Learning", "level": 88 },
+      { "name": "ByteTrack", "level": 90 },
+      { "name": "OSNet ReID", "level": 86 },
+      { "name": "InsightFace", "level": 82 }
+    ]
+  },
+  {
+    "category": "Backend",
+    "icon": "Server",
+    "items": [
+      { "name": "Flask", "level": 90 },
+      { "name": "Node.js", "level": 82 },
+      { "name": "Express", "level": 80 },
+      { "name": "SQLite", "level": 85 },
+      { "name": "MongoDB", "level": 78 }
+    ]
+  },
+  {
+    "category": "Frontend",
+    "icon": "Layout",
+    "items": [
+      { "name": "React", "level": 85 },
+      { "name": "Tailwind", "level": 88 },
+      { "name": "Bootstrap", "level": 78 }
+    ]
+  },
+  {
+    "category": "Tools & Platforms",
+    "icon": "Wrench",
+    "items": [
+      { "name": "Docker", "level": 82 },
+      { "name": "Git", "level": 90 },
+      { "name": "AWS", "level": 72 },
+      { "name": "VS Code", "level": 95 },
+      { "name": "Postman", "level": 85 },
+      { "name": "Google Colab", "level": 90 },
+      { "name": "Figma", "level": 75 }
+    ]
+  },
+  {
+    "category": "AI-Assisted",
+    "icon": "Sparkles",
+    "items": [
+      { "name": "ChatGPT", "level": 95 },
+      { "name": "Claude", "level": 92 },
+      { "name": "Cursor", "level": 90 },
+      { "name": "GitHub Copilot", "level": 88 }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "blood-cell",
+    "title": "AI Blood Cell Detection",
+    "blurb": "Custom YOLO11m pipeline for automated blood-smear diagnostics with parasitemia reporting.",
+    "tech": ["YOLO11m", "PyTorch", "Flask", "SQLite"],
+    "metrics": [
+      { "label": "mAP@50", "value": "96.1%" },
+      { "label": "Recall", "value": "95.6%" },
+      { "label": "Precision", "value": "89.8%" }
+    ],
+    "image": "/projects/blood-cell.svg",
+    "accent": "from-rose-500 via-fuchsia-500 to-violet-500",
+    "overview": "An end-to-end diagnostic assistant that detects RBCs, WBCs, platelets and malaria parasites from blood-smear images, then generates structured parasitemia reports for clinicians.",
+    "features": [
+      "Custom-trained YOLO11m on curated blood-smear dataset",
+      "Automatic parasitemia percentage & report generation",
+      "Flask web interface with per-case history",
+      "SQLite-backed case storage and audit trail"
+    ],
+    "architecture": [
+      "PyTorch training pipeline with augmentation stack",
+      "YOLO11m inference service exposed via Flask",
+      "SQLite persistence for cases, results and reports",
+      "OpenCV pre/post-processing for smear normalization"
+    ],
+    "links": {
+      "github": "https://github.com/mohankasaurabh/blood_cell_detection_system",
+      "docs": null
+    }
+  },
+  {
+    "id": "ppe",
+    "title": "PPE Detection System",
+    "blurb": "Real-time safety compliance platform with multi-object tracking and violation analytics.",
+    "tech": ["YOLO26", "OpenCV", "Flask", "SQLite"],
+    "metrics": [
+      { "label": "Throughput", "value": "25+ FPS" },
+      { "label": "Latency", "value": "Real-Time" },
+      { "label": "Tracking", "value": "ByteTrack + ReID" }
+    ],
+    "image": "/projects/ppe.svg",
+    "accent": "from-amber-400 via-orange-500 to-rose-500",
+    "overview": "A production-grade PPE compliance system that streams from multiple cameras, tracks workers across frames and logs violations to a live dashboard.",
+    "features": [
+      "Real-time helmet / vest / mask detection",
+      "ByteTrack multi-object tracking with ReID association",
+      "Live violation dashboard and alerting",
+      "Multi-stream ingestion with per-zone rules"
+    ],
+    "architecture": [
+      "YOLO26 detector optimized for edge inference",
+      "ByteTrack + ReID for stable identity across frames",
+      "Flask + WebSocket dashboard for live analytics",
+      "SQLite event store for violations and audits"
+    ],
+    "links": {
+      "github": "https://github.com/mohankasaurabh/PPE-DETECTION-SYSTEM",
+      "docs": null
+    }
+  },
+  {
+    "id": "retail",
+    "title": "AI Retail Analytics",
+    "blurb": "Multi-camera retail intelligence with cross-camera ReID and live behavioral analytics.",
+    "tech": ["YOLO11", "OSNet", "InsightFace", "Docker"],
+    "metrics": [
+      { "label": "Coverage", "value": "4+ Cameras" },
+      { "label": "Identity", "value": "Cross Camera ReID" },
+      { "label": "Dashboard", "value": "Real-Time" }
+    ],
+    "image": "/projects/retail.svg",
+    "accent": "from-cyan-400 via-sky-500 to-indigo-500",
+    "overview": "Modular retail analytics stack that unifies detections across cameras, tracking journeys, dwell time, demographics and zone conversion in a live dashboard.",
+    "features": [
+      "Cross-camera person ReID with OSNet embeddings",
+      "Polygon zone analytics, dwell time and heatmaps",
+      "Face-based demographics with InsightFace",
+      "Journey paths and conversion funnels per zone"
+    ],
+    "architecture": [
+      "YOLO11 detectors per camera stream",
+      "OSNet ReID gallery for cross-camera identity",
+      "Flask-SocketIO real-time dashboard",
+      "Docker Compose deployment for edge / on-prem"
+    ],
+    "links": {
+      "github": "https://github.com/mohankasaurabh/AI-RETAIL-ANALYTICS",
+      "docs": null
+    }
+  }
+]

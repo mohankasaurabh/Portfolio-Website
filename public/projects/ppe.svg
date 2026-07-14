@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="60%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <g stroke="rgba(255,255,255,0.15)" stroke-width="1">
+    <path d="M0 100 H800 M0 200 H800 M0 300 H800 M0 400 H800"/>
+    <path d="M100 0 V500 M200 0 V500 M300 0 V500 M400 0 V500 M500 0 V500 M600 0 V500 M700 0 V500"/>
+  </g>
+  <g fill="none" stroke="#fbbf24" stroke-width="2">
+    <rect x="150" y="120" width="140" height="240" rx="4"/>
+    <rect x="360" y="140" width="120" height="220" rx="4"/>
+    <rect x="540" y="130" width="130" height="230" rx="4"/>
+  </g>
+  <g font-family="monospace" font-size="12" fill="#fef3c7">
+    <text x="150" y="112">worker_01 · helmet ✓ vest ✓</text>
+    <text x="360" y="132">worker_02 · helmet ✗ vest ✓</text>
+    <text x="540" y="122">worker_03 · helmet ✓ vest ✓</text>
+  </g>
+  <text x="40" y="460" fill="rgba(255,255,255,0.85)" font-family="monospace" font-size="14">FPS: 27.4  |  tracker: ByteTrack + ReID</text>
+</svg>
